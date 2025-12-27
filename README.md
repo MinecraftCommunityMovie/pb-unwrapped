@@ -1,7 +1,6 @@
-# Youtrack statistic extractor
+# Project Beacon Unwrapped
 
-Extracts statistics about a youtrack instance through its API. See global
-variables for configuration.
+Single tree for all subprojects including:
 
-Data is outputted to`output.json`.
+* [Youtrack Statistics](./youtrack-statistics)
 
