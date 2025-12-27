@@ -41,7 +41,7 @@ def get_issues(project=None):
     else:
         r = requests.get(API_URL + "/admin/projects/"
                          + project
-                         + "/issues?fields=id,commentsCount,resolved",
+                         + "/issues?fields=id,commentsCount,resolved&$top=100000",
                          headers=HEADERS)
     if r.status_code != 200:
         print("Failed to get issues:")
